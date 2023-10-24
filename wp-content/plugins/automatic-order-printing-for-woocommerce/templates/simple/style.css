@@ -1,0 +1,129 @@
+@page {
+margin-top: 1cm;
+margin-bottom: 1cm;
+margin-left: 2cm;
+margin-right: 2cm;
+}
+body {
+	background: #fff;
+	color: #000;
+	margin: 0cm;
+	line-height: 100%;
+	width: 100%;
+}
+.wocp-main {
+	color: #73879C;
+	font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", "dejavu sans", sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.wocp-main * {
+	box-sizing: border-box;
+}
+p {
+	line-height:14px;
+	margin: 0;
+	padding: 0;
+}
+
+p + p {
+	margin-top: 1.25em;
+}
+h1,h2,h3,h4,h5,h6{
+margin:0px;
+padding:0px;
+}
+table.wocp-header-table {
+	width: 100%;
+	margin-bottom:10px;
+}
+table.wocp-header-table td{
+width:50%;
+}
+table.wocp-header-table img{
+max-width:300px;
+max-height:100px;
+}
+table.wocp-header-table .store-address{
+text-align:right;
+}
+table.wocp-top-data-table{
+width:100%;
+margin-bottom:10px;
+}
+table.wocp-top-data-table td{
+vertical-align:top;
+padding:4px 5px;
+}
+table.wocp-top-data-table ul{
+list-style:none;
+padding:0px;
+margin:0px;
+}
+table.wocp-top-data-table ul li{
+line-height:1.4;
+}
+table.wocp-top-data-table ul li strong{
+margin-right:5px;
+}
+table.wocp-top-data-table ul li p{
+margin:0px;
+padding:0px;
+}
+table.products-table{
+width:100%;
+border-collapse: collapse;
+}
+table.products-table .products-table-head th{
+background:#333;
+color:#fff;
+border:1px solid #333;
+padding:4px 5px;
+border-collapse:collapse;
+text-align:center;
+}
+table.products-table tbody td{
+padding:4px 5px;
+text-align:center;
+border:1px solid #ccc;
+border-collapse:collapse;
+}
+table.products-table .product-image img{
+max-width:100px;
+max-height:100px;
+}
+table.products-table tr th:last-child,
+table.products-table tr td:last-child{
+	width:15%;
+}
+table.otder-totals{
+width:100%;
+border-collapse: collapse;
+}
+table.otder-totals th{
+text-align:right;
+padding:4px 5px;
+border:1px solid #ccc;
+border-collapse:collapse;
+}
+table.otder-totals td{
+width:15%;
+padding:4px 5px;
+text-align:center;
+border:1px solid #ccc;
+border-collapse:collapse;
+}
+.order-products-table{
+margin-bottom:10px;
+}
+.document-footer{
+border-top:1px solid #ccc;
+padding-top:5px;
+padding-bottom:5px;
+margin-top:10px;
+}

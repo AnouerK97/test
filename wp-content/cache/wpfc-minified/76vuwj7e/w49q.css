@@ -1,0 +1,7 @@
+@font-face {
+font-family: 'e-ukraine';
+src: url(//clickcollect.chickenspot.com/wp-content/uploads/useanyfont/5412e-Ukraine.woff2) format('woff2'),
+url(//clickcollect.chickenspot.com/wp-content/uploads/useanyfont/5412e-Ukraine.woff) format('woff');
+font-display: auto;
+}
+.e-ukraine{font-family: 'e-ukraine' !important;}

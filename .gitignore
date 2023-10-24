@@ -1,0 +1,15 @@
+# Configuration
+wp-config.php
+
+# Uploads
+/wp-content/uploads/*
+
+# Log files
+*.log
+
+# Backups
+/wp-admin/ai1wm-backups/*
+*.wpress
+
+# Zip Files
+*.zip

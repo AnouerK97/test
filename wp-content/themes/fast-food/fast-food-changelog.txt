@@ -1,0 +1,60 @@
+Version 1.3.0 - 31 March 23
+    - Fixed WP 6.2 issue
+Version 1.2.9 - 22 February 23
+    - Minor bug fixes
+Version 1.2.8 - 6 September 22
+    - Import plugin update
+Version 1.2.7 - 21 June 22
+    - Added missing icons
+Version 1.2.6 - 18 October 21
+    - Added FA5 icons
+Version 1.2.5 - 19 May 21
+    - Fixed color picker opacity
+Version 1.2.4 - 4 April 21
+    - Added support for Lightweight Sidebar Manager plugin
+Version 1.2.3 - 30 December 20
+    - Improved WooCommerce compatibilty
+Version 1.2.2 - 31 August 20
+    - Improved WooCommerce compatibilty
+Version 1.2.1 - 26 August 20
+    - Improved WooCommerce compatibilty
+Version 1.2.0 - 10 February 20
+    - Improved WooCommerce compatibilty
+Version 1.1.9 - 29 August 19
+    - Improved security
+Version 1.1.8 - 21 July 19
+    - Minor bug fixes
+Version 1.1.7 - 16 July 19
+    - Minor bug fixes
+Version 1.1.6 - 3 July 19
+    - Minor bug fixes
+Version 1.1.5 - 30 May 19
+    - Minor bug fixes
+Version 1.1.4 - 28 May 19
+    - Minor bug fixes
+Version 1.1.3 - 22 March 19
+    - Fixed accent color option
+Version 1.1.2 - 14 March 19
+    - Minor bug fixes
+Version 1.1.1 - 14 December 18
+    - Instagram widget update
+Version 1.1.0 - 27 November 18
+    - Fixed custom shop menu
+Version 1.0.9 - 3 July 18
+    - Fixed search page layout
+Version 1.0.8 - 28 June 18
+    - Fixed WooCommerce related PHP notice
+Version 1.0.7 - 28 June 18
+    - Fixed footer page slug
+Version 1.0.6 - 15 December 17
+    - Cost Calculator update
+Version 1.0.5 - 19 October 17
+    - Improved WooCommerce compatibilty
+Version 1.0.4 - 7 September 17
+    - Demo content updated
+Version 1.0.3 - 4 August 17
+    - Fixed shopping cart
+Version 1.0.2 - 14 July 17
+    - Fixed logo saving
+Version 1.0.1 - 3 May 17
+    - WooCommerce 3.0.x support

@@ -1,0 +1,29 @@
+#woo-order-auto-print-meta{
+
+}
+#woo-order-auto-print-meta h3{
+font-size:12px;
+font-weight:bold;
+border-bottom:1px dashed #ccc;
+}
+#woo-order-auto-print-meta table{
+width:100%;
+}
+#woo-order-auto-print-meta table td{
+border-bottom: solid 1px #efefef;
+padding: 5px;
+}
+.woo-order-auto-print-admin-actions a {
+	color: #333;
+	padding: 4px 6px;
+	box-sizing: border-box;
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 0px;
+	border-radius: 3px;
+	outline: none;
+}
+.woo-order-auto-print-admin-actions a:hover {
+	background: #fff;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.3);
+}

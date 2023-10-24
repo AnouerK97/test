@@ -1,0 +1,8 @@
+{
+    "version": "3",
+    "file": "editor-style.css",
+    "sources": [
+        "editor-style.crush.css"
+    ],
+    "mappings": ";;;;;AAMA;;;AAGA;;;;;AAKA;;;;;;;;AAKC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAUA;;;;;;;;;;;;AAIA;;;;;;;;;;;;AAIA;;;;;;;;;;;AAGA;;;;;;;;;;;AAGA;;;;;;;;;;;AAGA;;;;;;;;;;;AAIA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAKA;;;;;;;AAIC;;;;;;AAIA;;;;;AAID;;;;;;AAIA;;;;;;;;AAGA;;;;;AAGA;;;;;AAGA;;;;;;AAKC;;;;;;;;;;;;;;;;;;;;;AAMD;;;;;;;;;;;;;;;;;AAUC;;;;;;;;;;;;;;AAMA;;;;;;;;;;;;;;;;;;;AAWA;;;;;;;;;;;;;;;AAOA;;;;;;;;;;;;;AAKA;;;;;;;;;;;AAGA;;;;;;;;;;;AAGA;;;;;;;;;;;;;;AAOC;;;;;;;;;;;;;;;;;;;;;;AAKA;;;;;;;;;;;;;;;;;;;;AAKF;;;;;AAEC;;;;;AAID;;;;;;AAIA;;;;;;;;AAGA;;;;;;;AAMA;;;;;;;;;AAMC;;;;;;;;;AAIA;;;;;AAEC;;;;;AAKA;;;;;;;;AAQF;;;;;;;;AAMA;;;;;;;;AAMA;;;;;;;;AAMA;;;;;AAIA;;;;;;;;;AAIA;;;;;;;;;AAIA;;;;;AAIA;;;;;;AAGC;;;;;AAEC;;;;;AAKF;;;;;;;AAKA;;;;;;AAGC;;;;;AAEC;;;;;AAKF;;;;;;AAKA;;;;;AAIA;;;;;;;;;;;;;;;;;;AAOA;;;;;;AAIA;;;;;AAGA;;;;;;AAIA;;;;;AAGA;;;;;;;;;;;;;AAQA;;;;;;;;AAKC;;;;;;;AAKA;;;;;;;;;;AAOC;;;;;;;;;;AAUF;;;;;;;AAOC;;;;;;;;;;;AAMC;;;;;AAMF;;;;;;;;AAIA;;;;;;;;;;;;;AAMC;;;;;;;;;;;;;;;;;;;;;AASC;;;;;;;;;;;;;;;AASF;;;;;;;;;;;;;;AAGA;;;;;;;;;;;;;;AAIA;;;;;;AAKA;;;;;AAKD;;;;"
+}

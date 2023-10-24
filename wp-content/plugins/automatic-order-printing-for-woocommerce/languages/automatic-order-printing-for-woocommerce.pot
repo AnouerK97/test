@@ -1,0 +1,823 @@
+# Copyright (C) 2023 Procom
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Automatic Order Printing for WooCommerce 1.0.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/automatic-order-printing-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-05-13T09:29:38+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: automatic-order-printing-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+msgid "Automatic Order Printing for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.procomsoftsol.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Automatic Order Printing for WooCommerce allows to you print your order invoices, packing slips automatically using PrintNode."
+msgstr ""
+
+#. Author of the plugin
+msgid "Procom"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:128
+#: admin/class-woo-order-auto-print-admin.php:148
+#: includes/class-woo-order-auto-print-cpt.php:212
+msgid "Auto Print Settings"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:132
+msgid "General"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:152
+msgid "Strings"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:190
+#: includes/class-woo-order-auto-print-cpt.php:348
+msgid "Enable"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:191
+msgid "Enable PrintNode Auto Print"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:197
+msgid "PrintNode API Key"
+msgstr ""
+
+#. translators: %1$s: Link staet, %2$s : Link End.
+#: admin/class-woo-order-auto-print-admin.php:199
+msgid "Enter PrintNode API key here. You can get a key from %1$shere%2$s"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:204
+msgid "Enable the logging of errors."
+msgstr ""
+
+#. translators: %1$s: Link staet, %2$s : Link End.
+#: admin/class-woo-order-auto-print-admin.php:211
+msgid "%1$sView Log%2$s"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:215
+msgid "Enable Logging"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:222
+msgid "Skip WP Cron"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:223
+msgid "Skip WP Cron and print directly.( don't enable this until WP Cron not working fine on the website. )"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:229
+msgid "Use mPDF"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:236
+msgid "Store Address"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:237
+#: admin/class-woo-order-auto-print-admin.php:244
+#: admin/class-woo-order-auto-print-admin.php:287
+#: admin/class-woo-order-auto-print-admin.php:308
+msgid "It will display on Invoice and Packing Slips"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:243
+msgid "Store Name"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:250
+msgid "Address line 1"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:251
+msgid "The street address for your business location."
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:257
+msgid "Address line 2"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:258
+msgid "An additional, optional address line for your business location."
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:264
+msgid "City"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:265
+msgid "The city in which your business is located."
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:271
+msgid "Country / State"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:272
+msgid "The country and state or province, if any, in which your business is located."
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:278
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:279
+msgid "The postal code, if any, in which your business is located."
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:286
+#: admin/class-woo-order-auto-print-admin.php:293
+msgid "Logo"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:294
+msgid "Header logo."
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:307
+#: admin/class-woo-order-auto-print-admin.php:314
+#: includes/class-woo-order-auto-print-cpt.php:284
+msgid "Footer"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:315
+msgid "Footer Address."
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:335
+#: admin/class-woo-order-auto-print-admin.php:336
+msgid "From Address"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:341
+#: admin/class-woo-order-auto-print-admin.php:342
+msgid "Billing Address"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:347
+#: admin/class-woo-order-auto-print-admin.php:348
+msgid "Shipping Address"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:353
+#: admin/class-woo-order-auto-print-admin.php:354
+msgid "Order Number"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:359
+#: admin/class-woo-order-auto-print-admin.php:360
+msgid "Order Date"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:365
+#: admin/class-woo-order-auto-print-admin.php:366
+msgid "Payment Method"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:371
+#: admin/class-woo-order-auto-print-admin.php:372
+msgid "Shipping Method"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:377
+#: admin/class-woo-order-auto-print-admin.php:378
+msgid "Email"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:383
+#: admin/class-woo-order-auto-print-admin.php:384
+msgid "Tel"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:390
+#: admin/class-woo-order-auto-print-admin.php:391
+msgid "Image"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:396
+#: admin/class-woo-order-auto-print-admin.php:397
+msgid "Product"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:402
+#: admin/class-woo-order-auto-print-admin.php:403
+msgid "SKU"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:408
+#: admin/class-woo-order-auto-print-admin.php:409
+msgid "Qty"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:414
+#: admin/class-woo-order-auto-print-admin.php:415
+msgid "Price"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:420
+#: admin/class-woo-order-auto-print-admin.php:421
+msgid "Total Price"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:426
+#: admin/class-woo-order-auto-print-admin.php:427
+msgid "Customer Notes"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:509
+msgid "Order Auto Print"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:522
+msgid "Print / Preview / Download"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:531
+msgid "Print"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:535
+msgid "Preview"
+msgstr ""
+
+#: admin/class-woo-order-auto-print-admin.php:539
+msgid "Download"
+msgstr ""
+
+#: automatic-order-printing-for-woocommerce.php:116
+msgid "Automatic Order Printing for WooCommerce requires the WooCommerce. Please install or activate woocommere"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:83
+msgctxt "Post Type General Name"
+msgid "Auto Print Templates"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:84
+msgctxt "Post Type Singular Name"
+msgid "Auto Print Templates"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:85
+#: includes/class-woo-order-auto-print-cpt.php:86
+#: includes/class-woo-order-auto-print-cpt.php:90
+#: includes/class-woo-order-auto-print-cpt.php:112
+#: includes/class-woo-order-auto-print-cpt.php:113
+msgid "Auto Print Templates"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:87
+msgid "Item Archives"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:88
+msgid "Item Attributes"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:89
+msgid "Parent Item:"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:91
+#: includes/class-woo-order-auto-print-cpt.php:92
+msgid "Add New"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:93
+msgid "New Item"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:94
+msgid "Edit Auto Print Template"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:95
+msgid "Update Auto Print Template"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:96
+msgid "View Auto Print Template"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:97
+msgid "View Auto Print Templates"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:98
+msgid "Search Auto Print Template"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:99
+msgid "Not found"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:100
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:101
+msgid "Featured Image"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:102
+msgid "Set featured image"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:103
+msgid "Remove featured image"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:104
+msgid "Use as featured image"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:105
+msgid "Insert into Auto Print Template"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:106
+msgid "Uploaded to this Auto Print Template"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:107
+msgid "Cloud Prin Templates list"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:108
+msgid "Auto Print Template list navigation"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:109
+msgid "Filter items list"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:145
+msgid "Auto Print Template updated."
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:146
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:147
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:148
+msgid "Auto Print Template  updated."
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:149
+msgid "Revision restored."
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:150
+msgid "Auto Print Template published."
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:151
+msgid "Auto Print Template saved."
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:152
+msgid "Auto Print Template submitted."
+msgstr ""
+
+#. translators: 1: date
+#: includes/class-woo-order-auto-print-cpt.php:155
+msgid "Auto Print Template scheduled for: %1$s."
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:156
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#. translators: %s: product url
+#: includes/class-woo-order-auto-print-cpt.php:159
+msgid "Auto Print Template draft updated."
+msgstr ""
+
+#. translators: %s: cloud prints count
+#: includes/class-woo-order-auto-print-cpt.php:175
+msgid "%s cloud print Template updated."
+msgid_plural "%s cloud prints updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: cloud prints count
+#: includes/class-woo-order-auto-print-cpt.php:177
+msgid "%s cloud print Template not updated, somebody is editing it."
+msgid_plural "%s cloud prints not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: product count
+#: includes/class-woo-order-auto-print-cpt.php:179
+msgid "%s cloud print Template permanently deleted."
+msgid_plural "%s cloud prints permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: cloud prints count
+#: includes/class-woo-order-auto-print-cpt.php:181
+msgid "%s cloud print Template moved to the Trash."
+msgid_plural "%s cloud prints moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: cloud prints count
+#: includes/class-woo-order-auto-print-cpt.php:183
+msgid "%s cloud print Template restored from the Trash."
+msgid_plural "%s cloud prints restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-woo-order-auto-print-cpt.php:224
+msgid "Store Details"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:236
+msgid "Billing Details"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:248
+msgid "Shipping Details"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:260
+msgid "Order Details"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:272
+msgid "Products Details"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:296
+msgid "Print Conditions"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:303
+msgid "Order will print on first sucessfull condition. "
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:317
+#: includes/class-woo-order-auto-print-cpt.php:805
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:324
+msgid "You can add custom css for the template. "
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:349
+msgid "Enable Auto Print"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:356
+msgid "Document Name"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:357
+msgid "Please enter document name"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:364
+msgid "PDF Size"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:365
+msgid "Select PDF Size"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:370
+msgid "A1 (594 x 841 mm)"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:371
+msgid "A2 (420 x 594 mm)"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:372
+msgid "A3 (297 x 420 mm)"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:373
+msgid "A4 (210 x 297 mm)"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:374
+msgid "A5 (148 x 210 mm)"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:375
+msgid "A6 (105 x 148 mm)"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:376
+msgid "A7 (74 x 105 mm)"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:377
+msgid "A8 (52 x 74 mm)"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:378
+msgid "Letter (216 x 279 mm)"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:383
+msgid "Enable Fit to Page"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:384
+msgid "Enable Fit to Page option"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:391
+#: includes/class-woo-order-auto-print-cpt.php:398
+msgid "Select Printer"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:397
+#: includes/class-woo-order-auto-print-cpt.php:1066
+msgid "Printer"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:407
+#: includes/class-woo-order-auto-print-cpt.php:412
+#: includes/class-woo-order-auto-print-cpt.php:413
+msgid "Select Papers"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:426
+msgid "Use Default"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:431
+#: includes/class-woo-order-auto-print-cpt.php:432
+msgid "Select Bin"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:446
+msgid "Copies"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:447
+msgid "Select Print Copies"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:469
+msgid "Sample Order"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:470
+msgid "Select sample order for preview"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:477
+msgid "Select Template"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:478
+msgid "Select Print template"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:485
+#: includes/class-woo-order-auto-print-cpt.php:1046
+msgid "Preview Template"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:506
+msgid "Display Store Logo"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:507
+msgid "Display store logo on the print"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:514
+msgid "Display Document Name"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:515
+msgid "Display document name on the print"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:522
+msgid "Store Logo"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:523
+msgid "Select store logo for the print. (It will take from plugin settings if you leave blank)"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:536
+msgid "Display From Address"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:537
+msgid "Display store addres on the print."
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:559
+msgid "Display Billing Address"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:560
+msgid "Display billing address on the Print"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:567
+msgid "Display email address"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:568
+msgid "Display billing email address"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:574
+msgid "Display Phone Number"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:575
+msgid "Display billing phone number"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:597
+msgid "Display Shipping Address"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:598
+msgid "Display shipping address on the Print"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:620
+msgid "Display Order Number"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:627
+msgid "Display Order Date"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:634
+msgid "Display Order Payment Method"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:641
+msgid "Display Order Shipping Method"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:663
+msgid "Display Products Table"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:670
+msgid "Display Product Image"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:676
+msgid "Display Product Name"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:683
+msgid "Display Product SKU"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:690
+msgid "Display Product Quantity"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:697
+msgid "Display Product Price"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:704
+msgid "Display Product Total"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:711
+msgid "Display Order Totals"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:732
+msgid "Display Footer"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:766
+msgid "Print Immediately When Order Created"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:767
+msgid "Select payment methods for which to print as soon as an order is placed"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:774
+msgid "Print on Payment Complete"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:775
+msgid "Select payment methods for which to print on payment complete"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:782
+msgid "Print on Order Status"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:783
+msgid "Print order on selected status"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:806
+msgid "Add custom CSS here."
+msgstr ""
+
+#. translators: 1: first name 2: last name
+#: includes/class-woo-order-auto-print-cpt.php:846
+msgctxt "full name"
+msgid "%1$s %2$s"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:1048
+msgid "Preview Template as HTML"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:1065
+msgid "Status"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:1082
+msgid "Enabled"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-cpt.php:1084
+msgid "Disabled"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-functions.php:90
+#: includes/class-woo-order-auto-print-functions.php:93
+#: includes/class-woo-order-auto-print-printnode.php:183
+msgid "Invalid PrintNode API Key"
+msgstr ""
+
+#. translators: %s template
+#: includes/class-woo-order-auto-print-functions.php:129
+msgid "%s does not exist."
+msgstr ""
+
+#: includes/class-woo-order-auto-print-functions.php:197
+msgid "Default Template"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-functions.php:198
+msgid "Advanced Template"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-integration.php:72
+msgid "Display PI WooCommerce order date time and type Data"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-integration.php:82
+msgid "Display Order Delivery Date by Tyche Softwares"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-integration.php:92
+msgid "Display WooCommerce Order Delivery Data"
+msgstr ""
+
+#: includes/class-woo-order-auto-print-integration.php:102
+msgid "Display YITH WooCommerce Delivery Date Premium"
+msgstr ""
+
+#: includes/class-woo-order-auto-print.php:250
+msgid "View settings"
+msgstr ""
+
+#: includes/class-woo-order-auto-print.php:250
+msgid "Settings"
+msgstr ""
+
+#: includes/class-woo-order-auto-print.php:251
+msgid "View templates"
+msgstr ""
+
+#: includes/class-woo-order-auto-print.php:251
+msgid "Templates"
+msgstr ""
